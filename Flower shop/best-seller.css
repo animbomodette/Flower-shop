@@ -1,0 +1,113 @@
+.event-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5E00A6;
+    margin: 3px 0 70px 6px;
+    
+}
+.event-header img{
+    width: 25px;
+    height: 20px;
+    color: white;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0px;
+    margin: 0 0 0px 6px;
+}
+
+.event-header p{
+   color:#FEEAFF;
+}
+
+.best-seller{
+  width: 100%;
+}
+
+.deals-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+}
+
+.daily-deals {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  /* margin-bottom: 30px; */
+}
+
+.daily-deals h2 {
+  font-size: 32px;
+  width: 50%;
+  font-weight: bold;
+  margin: 0;
+  margin-right: 600px; 
+   
+}
+
+.deal {
+  color:#6303A1 ;
+}
+
+.lorem {
+  display: inline-block;
+  width: 50%;
+  max-width: 400px;
+  color:#9F9F9F;
+  font-size: 16px;
+  margin: 0;
+}
+
+.deals-main{
+  width: 100%;
+  display: flex;
+}
+
+.deals-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  gap: 50px;
+}
+
+.flowers-card{
+  border: 1px solid blue;
+  height: 400px;
+}
+
+.flower-img{
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+
+.flower-discount-icon{
+  position: absolute;
+  /* display: flex;
+  justify-content: space-between; */
+
+}
+
+.discount{
+  background-color: #FF91EB;
+  border: 1px solid #FF91EB;
+  /* padding: 5px 0; */
+  border-radius: 20px;
+}
+
+.flower-container{
+  width: 100%;
+  height: 100%;
+}
+
+.flower-container img{
+  width: 100%;
+  height: 100%;
+}
