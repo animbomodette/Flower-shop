@@ -1,0 +1,64 @@
+/* Instagram Section */
+.instagram {
+  background-color: white;
+  padding: 50px 20px;
+}
+
+.instagram .subtitle {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.instagram h1 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.instagram h1 span {
+  color: #6b00b6;
+}
+
+/* Gallery Layout */
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Side Grids (Left & Right) */
+.side {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.side img {
+  width: 100%;
+  max-width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Center Image */
+.center img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effects */
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
